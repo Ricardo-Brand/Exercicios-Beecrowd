@@ -17,7 +17,6 @@ int main(){
         scanf("%s", mina);
 
         tamanho_mina = strlen(mina);
-        mina[tamanho_mina] = '\0';
        
         while(contador < tamanho_mina){
             if(mina[contador] == '<'){
